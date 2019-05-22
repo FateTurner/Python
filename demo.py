@@ -21,4 +21,32 @@ print(total)
 def string_multiplication(s, ni):
     print(s * ni)
 
-string_multiplication( "hi", 2)
+string_multiplication( "Hi", 2)
+
+
+
+def Greet(name):
+    print("Hey! Wassup?" + name)
+
+Greet("Bob")
+
+
+a = [2, 3, 9]
+max_len = len(a)
+
+for i in a:
+    if a[0] == 6:
+        print("True")
+    elif a[max_len - 1] == 6:
+        print("True")
+    else:
+        print("False")
+    break
+
+
+
+
+
+
+
+
