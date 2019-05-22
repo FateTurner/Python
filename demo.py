@@ -16,3 +16,10 @@ for i in range(1, 100):
     if i % 3 == 0 or i % 5 == 0:
         total = total + i
 print(total)
+
+
+
+def string_multiplication(s, ni):
+    print(s * ni)
+
+string_multiplication( "hi", 2)
