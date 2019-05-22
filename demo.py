@@ -8,7 +8,6 @@ print(total)
 
 
 
-
 total = 0
 print(list(range(100)))
 
