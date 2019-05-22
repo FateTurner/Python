@@ -45,8 +45,15 @@ for i in a:
 
 
 
+count_evens = [2, 1, 2, 3, 4]
 
-
+count = 0
+for x in count_evens:
+    if x % 2 == 0:
+        count = count + 1
+    else:
+        x = x + 1
+print(count)
 
 
 
